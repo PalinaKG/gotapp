@@ -67,7 +67,7 @@ export default function TopBar(props) {
             style={{width: 35, height: 20, marginTop: 14}}
             >
               <MenuItem  value={10}>
-                <Button color="inherit" href="/Lannister">
+                <Button color="inherit" href="/gotapp/Lannister">
                     Lannister
                 </Button>
               </MenuItem>
@@ -78,7 +78,7 @@ export default function TopBar(props) {
               </MenuItem>
               <MenuItem  value={10}>
                 <Button color="inherit" href="/Targaryen">
-                    Stark
+                Targaryen
                 </Button>
               </MenuItem>
             </Select>

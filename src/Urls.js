@@ -10,10 +10,10 @@ function Urls(props) {
     <div>
       <BrowserRouter>
         <Routes>
-        <Route path='/welcome' element={<Home/>} />
+        <Route path='/gotapp/welcome' element={<Home/>} />
         </Routes>
         <Routes>
-        <Route path='/Lannister' element={<Lannister/>} />
+        <Route path='/gotapp/Lannister' element={<Lannister/>} />
         </Routes>
         <Routes>
         <Route path='/Stark' element={<Home/>} />
